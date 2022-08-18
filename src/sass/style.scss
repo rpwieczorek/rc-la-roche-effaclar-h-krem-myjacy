@@ -73,7 +73,7 @@ body {
       }
     }
     &__wrapper {
-      min-height: 250px;
+      min-height: 290px;
       background: url('../images/bg-kv.png') no-repeat;
       background-size: cover;
       background-position: right ;
@@ -140,9 +140,11 @@ body {
     min-height: 314px;
     background: url('../images/bg-effect.png') no-repeat;
     background-size: cover;
-    background-position: left;
-    background-color: #efefef;
+    background-position: right;
+    background-color: #f7f4e6;
     &__container{
+      margin-left: auto;
+      margin-right: 20px;
       padding: 25px 15px;
       max-width: 510px;
       text-align: center;
@@ -218,7 +220,7 @@ body {
       gap: 15px 2px;
     }
     &__single {
-      width: 112px;
+      width: 135px;
       overflow: hidden;
       &:hover {
         .es-ingr__image {
@@ -261,8 +263,8 @@ body {
     }
     &__subtitle {
       @include text;
-      font-size: 15px;
-      margin: 0 10px;
+      font-size: 16px;
+      margin: 14px 10px;
       font-weight: 100;
       & span {
         font-family: $medium;
@@ -479,7 +481,7 @@ body {
     }
     &__left {
       position: absolute;
-      top: 40%;
+      top: 5%;
       left: 5%;
       z-index: 5;
     }
